@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.dark-bg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+#name{
+    font-size: 18px;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+#navbar li{
+    display: inline-block;
+    margin: 10px 35px;
+    list-style: none;
+}
+
+#navbar p{
+    font-weight: bold;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+#navbar a:hover{
+    color: rgb(185, 185, 185);
+    transition: 0.3s;
+}
+
+#reservation{
+    color: white;
+    background: none;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    font-size: 15px;
+    display: block;
+    margin: 55px auto;
+    transition: 0.4s;
+}
+
+#reservation:hover{
+    color: black;
+    background-color: white;
+    transition: 0.4s;
+}
+
+#home{
+    margin-top: 7%;
+}
+
+#cap1{
+    color: white;
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+#cap2{
+    margin-bottom: 10px;
+}
+
+.tagline{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px
+}
+
+#about{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding-top: 7%;
+
+}
+
+#about h5{
+    font-weight: bold;
+    color: black;
+    margin: 15px 0 15px 0;
+}
+
+#about1, #about2 p{
+    color: gray;
+    text-align: justify;
+    margin: 15px 0 15px 0;
+}
+
+#about1 h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    
+}
+
+#menu{
+    margin-top: 20%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    padding-top: 7%;
+}
+
+#menu h1{
+    color: white;
+    text-align: center;
+}
+
+#menu p{
+    color: white;
+    text-align: center;
+}
+
+#menu h6{
+    color: white;
+}
+
+#signature{
+    background-image: url(./images/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100.8%;
+    height: 250px;
+    margin-top: 7%;
+}
+
+
+#signature span{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#signature-desc{
+    padding: 65px 0 0 125px;
+}
+
+#signature-menu{
+    height: 100vh;
+    width: 100%;
+}
+
+#pictures{
+    width: 75%;
+}
+
+.card {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+.card:hover {
+    transform: scale(1.02);
+  }
+
+#dishes{
+    height: 100vh;
+}
+
+#review-bg{
+    background-image: url(./images/bg3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin-top: 46%;
+}
+
+#contacts{
+    width: 100%;
+    height: 100vh;
+    margin-top: 7%;
+    background-color: aqua;
+}
